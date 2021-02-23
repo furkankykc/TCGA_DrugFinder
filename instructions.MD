@@ -1,7 +1,8 @@
 Project 2: TCGA DrugFinder  
 For this project, you need to use TCGABioLinks package of R  along with R or Python’s EUtil packages.
-1) For any given cancer abbreviation (i.e. LUAD), your program will retrieve the TCGA patient identifier, all TCGA drug names, immunotherapy or chemotherapy or targeted molecular therapy, smoking/non-smoking,how long the patient lived (survival info)
-2) You will retrieve top 10 corresponding PubChem CIDs(Compound IDs) for each drug name using 
+1) For any given cancer abbreviation (i.e. LUAD), your program will retrieve the TCGA patient identifier, all TCGA drug names, immunotherapy or chemotherapy or targeted molecular therapy,\
+   smoking/non-smoking,how long the patient lived (survival info).
+2) You will retrieve top 10 corresponding PubChem CIDs(Compound IDs) for each drug name using
    * eutils: https://www.ncbi.nlm.nih.gov/pccompound/?term=%22aspirin%22%5BSynonym%5D
 * PubChem Compounds might not have much readable description;
    * therefore you will efetch the MeSH term of each compound CID. 
